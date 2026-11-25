@@ -163,7 +163,7 @@ function initLightbox() {
 
             // Set custom prefilled WhatsApp message for clothing lookbook inquiry
             const msgText = `Hi ZARAFA! I would like to enquire about this outfit and similar styles: *${title}* (Ref: ${ref}). Link: https://yourbrand.example/gallery.html#${ref}`;
-            inquireBtn.setAttribute('href', `https://wa.me/919000000001?text=${encodeURIComponent(msgText)}`);
+            inquireBtn.setAttribute('href', `https://wa.me/919325533020?text=${encodeURIComponent(msgText)}`);
 
             document.body.style.overflow = 'hidden';
             modal.classList.add('active');
