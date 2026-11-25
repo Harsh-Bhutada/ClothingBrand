@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZARAFA | Women's Clothing Collections</title>
+    <meta name="description" content="Browse ZARAFA's curated women's clothing catalog featuring ethnic ghagras, sharara suits, festive kurtis, tailored Indo-Western sets, casual tunics, and accessories.">
+
+    <!-- OpenGraph Metadata for WhatsApp Link Preview -->
+    <meta property="og:title" content="ZARAFA Wardrobe Catalog | Kurtis, Ghagras &amp; Shararas">
+    <meta property="og:description" content="Explore our collection of tailored silhouettes, festive ethnic wear, casual handloom kurtis, and artisanal accessories.">
+    <meta property="og:image" content="https://yourbrand.example/assets/images/cat_ethnic.jpg">
+    <meta property="og:url" content="https://yourbrand.example/products.html">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="scrolled">
+        <div class="container nav-wrapper">
+            <a href="index.html" class="logo">ZARAFA</a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="products.html">Collections</a></li>
+                    <li><a href="gallery.html">Lookbook</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="mobile-only"><a href="contact.html" class="lux-btn lux-btn-outline nav-btn">Book Styling</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="lux-btn lux-btn-outline nav-btn desktop-only">Book Styling</a>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <section class="products-hero" style="padding-top: 140px; text-align: center;">
+        <div class="container">
+            <div class="section-title-wrapper" style="margin-bottom: 20px;">
+                <div class="section-subtitle">Our Collections</div>
+                <h1 class="section-title">Curated Women's Apparel</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Filtering -->
+    <div class="container filter-panel-wrapper">
+        <ul class="filter-pills glass-panel">
+            <li class="filter-pill active" data-filter="all">All Styles</li>
+            <li class="filter-pill" data-filter="tailored">Tailored</li>
+            <li class="filter-pill" data-filter="ethnic">Ethnic</li>
+            <li class="filter-pill" data-filter="casual">Casual</li>
+            <li class="filter-pill" data-filter="accessories">Accessories</li>
+        </ul>
+    </div>
+
+    <!-- Product Showcase -->
+    <main class="container" style="min-height: 60vh;">
+        <div class="product-grid">
+            <!-- Card 1: Royal Zari Silk Ghagra Set -->
+            <div class="product-card" data-category="ethnic">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_ghagra.jpg" alt="Royal Zari Silk Ghagra Set" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/royal-zari-ghagra-set.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Ethnic / Ghagra</span>
+                    <h3>Royal Zari Silk Ghagra Set</h3>
+                </div>
+            </div>
+            <!-- Card 2: Pearl Embroidered Sharara Suit -->
+            <div class="product-card" data-category="ethnic">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_sharara.jpg" alt="Pearl Embroidered Sharara Suit" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/pearl-embroidered-sharara.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Ethnic / Sharara</span>
+                    <h3>Pearl Embroidered Sharara Suit</h3>
+                </div>
+            </div>
+            <!-- Card 3: Chikankari Festive Anarkali Kurti -->
+            <div class="product-card" data-category="ethnic">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_anarkali_kurti.jpg" alt="Chikankari Festive Anarkali Kurti" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/chikankari-anarkali-kurti.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Ethnic / Kurti</span>
+                    <h3>Chikankari Festive Anarkali Kurti</h3>
+                </div>
+            </div>
+            <!-- Card 4: Ivory Silk Indo-Western Co-ord -->
+            <div class="product-card" data-category="tailored">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_indo_coord.jpg" alt="Ivory Silk Indo-Western Co-ord" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/ivory-indo-western-coord.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Tailored / Co-ord Set</span>
+                    <h3>Ivory Silk Indo-Western Co-ord</h3>
+                </div>
+            </div>
+            <!-- Card 5: Structured Velvet Festive Jacket Set -->
+            <div class="product-card" data-category="tailored">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_velvet_jacket.jpg" alt="Structured Velvet Festive Jacket Set" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/velvet-festive-jacket-set.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Tailored / Jacket Set</span>
+                    <h3>Structured Velvet Festive Jacket Set</h3>
+                </div>
+            </div>
+            <!-- Card 6: Pleated Satin Cape Palazzo Set -->
+            <div class="product-card" data-category="tailored">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_cape_palazzo.jpg" alt="Pleated Satin Cape Palazzo Set" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/pleated-cape-palazzo-set.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Tailored / Palazzo Set</span>
+                    <h3>Pleated Satin Cape Palazzo Set</h3>
+                </div>
+            </div>
+            <!-- Card 7: Handloom Mulmul Straight Kurti -->
+            <div class="product-card" data-category="casual">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_mulmul_kurti.jpg" alt="Handloom Mulmul Straight Kurti" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/handloom-mulmul-kurti.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Casual / Kurti</span>
+                    <h3>Handloom Mulmul Straight Kurti</h3>
+                </div>
+            </div>
+            <!-- Card 8: Indigo Block-Print Cotton Kurta Set -->
+            <div class="product-card" data-category="casual">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_indigo_kurta.jpg" alt="Indigo Block-Print Cotton Kurta Set" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/indigo-block-print-set.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Casual / Kurta Set</span>
+                    <h3>Indigo Block-Print Cotton Kurta Set</h3>
+                </div>
+            </div>
+            <!-- Card 9: Sage Linen Everyday Tunic -->
+            <div class="product-card" data-category="casual">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_linen_tunic.jpg" alt="Sage Linen Everyday Tunic" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/sage-linen-tunic.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Casual / Linen Tunic</span>
+                    <h3>Sage Linen Everyday Tunic</h3>
+                </div>
+            </div>
+            <!-- Card 10: Handwoven Gold Organza Dupatta -->
+            <div class="product-card" data-category="accessories">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_organza_dupatta.jpg" alt="Handwoven Gold Organza Dupatta" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/handwoven-organza-dupatta.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Accessories / Dupatta</span>
+                    <h3>Handwoven Gold Organza Dupatta</h3>
+                </div>
+            </div>
+            <!-- Card 11: Zardozi Bridal Potli Clutch -->
+            <div class="product-card" data-category="accessories">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_potli_clutch.jpg" alt="Zardozi Bridal Potli Clutch" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/zardozi-potli-clutch.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Accessories / Potli Bag</span>
+                    <h3>Zardozi Bridal Potli Clutch</h3>
+                </div>
+            </div>
+            <!-- Card 12: Artisan Embroidered Silk Juttis -->
+            <div class="product-card" data-category="accessories">
+                <div class="product-img-wrapper">
+                    <img src="assets/images/prod_silk_juttis.jpg" alt="Artisan Embroidered Silk Juttis" loading="lazy">
+                    <div class="glass-hover-overlay">
+                        <a href="products/embroidered-silk-juttis.html" class="lux-btn">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <span class="product-cat">Accessories / Footwear</span>
+                    <h3>Artisan Embroidered Silk Juttis</h3>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">ZARAFA</a>
+                <p>A contemporary women's ethnic and casual fashion house celebrating handwoven fabrics, timeless kurtis, festive ghagras, and flowing sharara sets.</p>
+                <p><i class="fa-solid fa-location-dot"></i> Shop No. 10/11, Heritage Fashion Arcade, MG Road, City – 000000, India</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Collections</a></li>
+                    <li><a href="gallery.html">Lookbook</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Categories</h4>
+                <ul class="footer-links">
+                    <li><a href="products.html?cat=tailored">Tailored</a></li>
+                    <li><a href="products.html?cat=ethnic">Ethnic</a></li>
+                    <li><a href="products.html?cat=casual">Casual</a></li>
+                    <li><a href="products.html?cat=accessories">Accessories</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Boutique &amp; Contact</h4>
+                <p><i class="fa-solid fa-clock"></i> Monday - Sunday: 10:30 AM - 8:30 PM</p>
+                <p><i class="fa-solid fa-phone"></i> +91 90000 00001</p>
+                <p><i class="fa-solid fa-phone"></i> +91 90000 00002</p>
+                <p><i class="fa-solid fa-phone"></i> Landline: 0000-0000000</p>
+                <p><i class="fa-solid fa-envelope"></i> hello@yourbrand.example</p>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 ZARAFA Boutique. All rights reserved.</p>
+            <p>Crafted for Elegance | India</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
