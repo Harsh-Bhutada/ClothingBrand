@@ -23,6 +23,7 @@
     padding: 0;
 }
 
+html,
 body {
     background-color: var(--bg-color);
     color: var(--text-primary);
@@ -177,6 +178,9 @@ header.scrolled {
     grid-template-columns: 1fr 1fr;
     gap: 48px;
     align-items: center;
+}
+.hero-grid > * {
+    min-width: 0;
 }
 .hero-content h1 {
     font-size: 56px;

@@ -1,3 +1,5 @@
+const WHATSAPP_NUMBER = '919325533020';
+
 document.addEventListener('DOMContentLoaded', () => {
     console.log('ZARAFA website initialized');
     initNavigation();
@@ -5,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initFilters();
     initProductGallery();
     initAccordions();
+    initWhatsAppLinks();
     initLightbox();
 });
 
@@ -145,6 +148,16 @@ function initAccordions() {
     });
 }
 
+function initWhatsAppLinks() {
+    const waLinks = document.querySelectorAll('a[data-wa-text]');
+    waLinks.forEach(link => {
+        const msgText = link.getAttribute('data-wa-text');
+        if (msgText) {
+            link.setAttribute('href', `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msgText)}`);
+        }
+    });
+}
+
 function initLightbox() {
     const items = document.querySelectorAll('.gallery-item');
     const modal = document.querySelector('.lightbox-modal');
@@ -163,7 +176,7 @@ function initLightbox() {
 
             // Set custom prefilled WhatsApp message for clothing lookbook inquiry
             const msgText = `Hi ZARAFA! I would like to enquire about this outfit and similar styles: *${title}* (Ref: ${ref}). Link: https://yourbrand.example/gallery.html#${ref}`;
-            inquireBtn.setAttribute('href', `https://wa.me/919325533020?text=${encodeURIComponent(msgText)}`);
+            inquireBtn.setAttribute('href', `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msgText)}`);
 
             document.body.style.overflow = 'hidden';
             modal.classList.add('active');
